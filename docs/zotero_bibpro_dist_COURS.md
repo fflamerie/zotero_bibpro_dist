@@ -69,7 +69,7 @@ Pourquoi Safari est-il barré ? Le connecteur Zotero pour Safari est beaucoup pl
 * Exporter et importer des références bibliographiques entre différentes applications
 * Organiser et gérer sa documentation professionnelle
 
-... et plus largement pour des usages non académiques : [Discussion du forum Zotero : How/ Why do you use Zotero?](https://forums.zotero.org/discussion/79440/how-why-do-you-use-zotero)
+... et plus largement pour des usages non académiques : ![zotero][zotero] [Discussion du forum Zotero : How/ Why do you use Zotero?](https://forums.zotero.org/discussion/79440/how-why-do-you-use-zotero)
 
 ### Zotero est un logiciel libre
 
@@ -101,7 +101,7 @@ Vous devez installer à la fois l'**application** Zotero **ET** le **connecteur*
 Pour profiter pleinement de Zotero, le logiciel doit être connecté à votre navigateur internet et à votre traitement de texte Microsoft Word ou LibreOffice Writer.
 
 1. Vérifiez si Zotero est installé en ouvrant l'application sur votre ordinateur.
-2. Ouvrez votre navigateur et vérifiez que l'icône Zotero apparaît dans la barre d'outils. Si elle n'apparaît pas, suivez les indications fournies dans la page dédiée de la documentation Zotero : [Pourquoi n'y a-t-il pas de bouton d'enregistrement dans la barre d'outils de mon navigateur ?](https://docs.zotero-fr.org/kb/no_toolbar_button/#pourquoi-ny-a-t-il-pas-de-bouton-denregistrement-dans-la-barre-doutils-de-mon-navigateur)
+2. Ouvrez votre navigateur et vérifiez que l'icône Zotero apparaît dans la barre d'outils. Si elle n'apparaît pas, suivez les indications fournies dans la page dédiée de la documentation Zotero : ![zotero][zotero] [Pourquoi n'y a-t-il pas de bouton d'enregistrement dans la barre d'outils de mon navigateur ?](https://docs.zotero-fr.org/kb/no_toolbar_button/#pourquoi-ny-a-t-il-pas-de-bouton-denregistrement-dans-la-barre-doutils-de-mon-navigateur)
 3. Ouvrez votre traitement de texte et vérifiez si l'extension Zotero est installée. En général, après l'installation de Zotero, un nouvel onglet apparaît dans votre traitement de texte. En fonction de votre logiciel, Zotero peut aussi être affiché avec d'autres "Compléments".
 
 Si l'installation du module de traitement de texte n'a pas fonctionné, vous pouvez le réinstaller à partir de Zotero lui-même.
@@ -240,7 +240,7 @@ Exemple de la même  notice au format BibTex
 }
 ```
 
-Zotero accepte bien d'autres formats d'**import**, citons les formats texte complets de bases de données (PubMed, Web of Science, etc.)
+Zotero accepte bien d'autres formats d'**import**, citons par exemple les formats texte complets de bases de données (PubMed, Web of Science, etc.)
 
 ![zotero_import_formats](img/zotero_import_formats.png)
 
@@ -300,8 +300,8 @@ Ajoutez des documents en utilisant l'une des méthodes suivantes.
 ```
 
 * **Saisie manuelle** : un rapport interne, une présentation ou tout autre document que vous ne trouvez pas en ligne.
-* **A partir d'un PDF** : utilisez vos propres fichiers ou [les fichiers de ce dossier]().<!--lien-->
-* **Import de fichier** : utilisez [ce fichier RDF](https://raw.githubusercontent.com/fflamerie/zotero_bibpro/main/docs/zotero_bibpro_import.rdf).<!--lien-->
+* **A partir d'un PDF** : utilisez vos propres fichiers ou [les fichiers de ce dossier](https://github.com/fflamerie/zotero_bibpro_dist/tree/main/docs/import-PDF).
+* **Import de fichier** : utilisez [ce fichier RDF](https://github.com/fflamerie/zotero_bibpro_dist/blob/main/docs/zotero_bibpro_import.rdf).
 
 ### Vérifier et mettre à jour les documents que vous avez enregistrés
 
@@ -326,18 +326,18 @@ Faut-il pour chaque livre enregistrer les **date, lieu et éditeur commercial or
 
 Les références que l'on souhaiterait intégrer dans une bibliothèque Zotero ne sont pas toujours enregistrées dans un format exploitable par la fonction d'import de Zotero. C'est le cas quand on doit extraire les références bibliographiques d'un document rédigé.
 
-Les 2 services ci-dessous permettent de répondre à ce besoin.
+Les deux services ci-dessous visent à répondre à ce besoin.
 
-*  [anystyle.io](https://anystyle.io/) analyse le texte soumis dans l'interface en ligne et le convertit en références bibliographiques exploitables informatiquement.
+*  [Anystyle.io](https://anystyle.io/) analyse le texte soumis dans l'interface en ligne et le convertit en références bibliographiques exploitables informatiquement.
 * [Citation Finder](https://citation-finder.vercel.app/) recherche quant à lui les documents en ligne : cela donne l'assurance d'obtenir des références bibliographiques complètes et exactes, mais ne permet pas de traiter les références de documents non indexés.
 
-Si vous avez une très grande bibliographie dans Word à importer dans Zotero, la combinaison des deux premiers outils sera sans doute la meilleure solution : Citation Finder pour traiter d’abord tout ce qui est disponible en ligne, puis Anystyle.io pour le reste. Notez que Anystyle.io ne fait qu'extraire ce qui est présent dans le document source : pour obtenir un résultat fiable, complet et exact, il faut donc que la bibliographie du document source présente ces mêmes qualités.
+Si vous avez une très grande bibliographie dans Word à importer dans Zotero, la combinaison de ces deux premiers outils sera sans doute la meilleure solution : Citation Finder pour traiter d’abord tout ce qui est disponible en ligne, puis Anystyle.io pour le reste. Notez que Anystyle.io ne fait qu'extraire les données présentes dans le document source : pour obtenir un résultat fiable, complet et exact, il faut donc que la bibliographie du document source présente ces mêmes qualités.
 
 #### Exercice "Extraire les références de la bibliographie d'un document Word ou PDF"
 
 Nous prenons **10 minutes** pour cette activité.
 
-Importez les références de [cette bibliographie rédigée dans un document au format .docx]()<!--lien--> dans Zotero, à l'aide de Anystyle.io.
+Importez les références de [cette bibliographie rédigée dans un document au format .docx](https://github.com/fflamerie/zotero_bibpro_dist/blob/main/docs/zotero_bibpro_ex_anystyle.docx) dans Zotero, à l'aide de Anystyle.io.
 
 🧐 N'oubliez pas de relire, corriger et compléter les références importées!
 
@@ -359,7 +359,7 @@ Billets du blog Zotero francophone
 
 * [Migration vers Zotero](https://zotero.hypotheses.org/2766)
 * [Zotero et Latex](https://zotero.hypotheses.org/762)
-* [Bulletin de veille n° 2](https://zotero.hypotheses.org/3434) : anystyle.io et Citation Finder
+* [Bulletin de veille n° 2](https://zotero.hypotheses.org/3434) : Anystyle.io et Citation Finder
 
 ## 4. Constituer sa bibliothèque Zotero étape 2, organiser le contenu, des références bibliographiques aux annotations de PDF
 
@@ -465,11 +465,10 @@ Pour **exporter** de Zotero des PDF avec leurs annotations intégrées, procéde
 
 ![zotero][zotero] [Documentation Zotero : Documents connexes](https://docs.zotero-fr.org/related)
 
-Billet du blog Zotero francophone :
+Blog Zotero francophone :
 
 * [Optimiser l’organisation de sa bibliothèque](https://zotero.hypotheses.org/3298)
-
-Exemples d'organisations de bibliothèque Zotero par des utilisateurs : [ressources associées au billet "Comment organiser sa bibliothèque?" dans la bibliothèque de groupe zfrancophone](zotero://select/groups/2233096/collections/SZEXH6L3)
+* Exemples d'organisations de bibliothèque Zotero par des utilisateurs : [ressources associées au billet "Comment organiser sa bibliothèque?" dans la bibliothèque de groupe zfrancophone](https://www.zotero.org/groups/2233096/zfrancophone/collections/SZEXH6L3)
 
 ![zotero][zotero] [Forum Zotero : How/ Why do you use Zotero?](https://forums.zotero.org/discussion/comment/340945#Comment_340945)
 
@@ -714,7 +713,7 @@ Zotero fait également ce qui suit.
 
 Nous prenons **15 minutes** pour cette activité.
 
-L'objectif est de reproduire exactement le résultat présenté dans le fichier de modèle disponible au format PDF dans [la rubrique Exercice "Citer avec Zotero" du support de formation](https://github.com/fflamerie/zotero_gerer_biblio/blob/master/README.md#exercice-citer-avec-zotero).<!--lien-->
+L'objectif est de reproduire exactement le résultat présenté dans le fichier de modèle disponible au format PDF dans [la rubrique Exercice "Citer avec Zotero"](https://github.com/fflamerie/zotero_bibpro_dist#exercice-citer-avec-zotero).
 
 Le style bibliographique utilisé est un style auteur-date, le style **ISO-690 (author-date, no abstract, Français)**.
 
@@ -729,7 +728,7 @@ La fonctionnalité première du service en ligne [Reference Extractor](http://ri
 
 Ce n’est pas tant cette fonctionnalité d’extraction que celle de sélection qui nous intéresse pour ce point.
 
-À partir du fichier de traitement de texte téléchargé dans l’interface en ligne, Reference Extractor offre en effet à l'étape 2 du processus la sélection les documents correspondants dans la bibliothèque Zotero, avec l'option _Select in Zotero_. Il ne reste plus alors qu’à attribuer à ces documents un marqueur ou une collection pour les identifier dans la bibliothèque.
+À partir du fichier de traitement de texte téléchargé dans l’interface en ligne, Reference Extractor offre en effet à l'étape 2 du processus de sélectionner les documents correspondants dans la bibliothèque Zotero, avec l'option _Select in Zotero_. Il ne reste plus alors qu’à attribuer à ces documents un marqueur ou une collection pour les identifier durablement dans la bibliothèque.
 
 ![Interface de Reference Extractor, avec mise en valeur de l'option de sélection des documents dans la  bibliothèque](img/zotero_ref_extract_01.png)
 
