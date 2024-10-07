@@ -9,10 +9,9 @@ Matériel de la formation ["Zotero pour les bibliothécaires"](https://sygefor.r
 * Intégrer Zotero à ses outils de travail
 * Comprendre l'environnement de Zotero pour en optimiser et en augmenter l'usage
 
-
 ## Cours
 
-[Support de cours en ligne en html]()
+[Support de cours en ligne en html](https://github.com/fflamerie/zotero_bibpro_dist/blob/main/docs/zotero_bibpro_dist_COURS.md)
 
 
 ## Exercices
@@ -22,11 +21,11 @@ Matériel de la formation ["Zotero pour les bibliothécaires"](https://sygefor.r
 * Quiz 1 : que savez-vous de Zotero et quels outils bibliographiques utilisez-vous?
 * Quiz 2 : les styles bibliographiques
 
-🎯 [Texte des quiz]()
+🎯 [Texte des quiz](https://github.com/fflamerie/zotero_bibpro_dist/blob/main/docs/zotero_bibpro_quiz.md)
 
 
 ### Exercice "Autres méthodes pour ajouter des documents"
-  * [Fichier .RDF à importer]()
+  * [Fichier .RDF à importer](https://github.com/fflamerie/zotero_bibpro_dist/blob/main/docs/zotero_bibpro_import.rdf)
   * Liste de DOI pour la baguette magique :
 
 ```
@@ -40,18 +39,18 @@ Matériel de la formation ["Zotero pour les bibliothécaires"](https://sygefor.r
 10.3758/BF03328608
 10.3923/jeasci.2018.9380.9384
 ```
-  * [Fichiers .PDF à importer]()
+  * [Fichiers .PDF à importer](https://github.com/fflamerie/zotero_bibpro_dist/tree/main/docs/import-PDF)
 
 ### Exercice "Extraire les références de la bibliographie d'un document Word ou PDF"
 
-[Fichier à utiliser avec Anystyle.io](https://github.com/fflamerie/zotero_bibpro/blob/main/docs/zotero_bibpro_ex_anystyle.docx)
+[Fichier à utiliser avec Anystyle.io](https://github.com/fflamerie/zotero_bibpro_dist/blob/main/docs/zotero_bibpro_ex_anystyle.docx)
 
 ### Exercice "Citer avec Zotero"
 
 Le style bibliographique utilisé est le style **ISO-690 (author-date, no abstract, Français)**.
 
-* [Fichier modèle à reproduire au format .PDF](https://github.com/fflamerie/zotero_bibpro/blob/main/docs/zotero_bibpro_TP_citer_MODELE.pdf)
-* [Fichier d'exercice à modifier au format .DOC](https://github.com/fflamerie/zotero_bibpro/blob/main/docs/zotero_bibpro_TP_citer_EXERCICE.doc)
+* [Fichier modèle à reproduire au format .PDF](https://github.com/fflamerie/zotero_bibpro_dist/blob/main/docs/zotero_bibpro_CITER_MODELE.pdf)
+* [Fichier d'exercice à modifier au format .DOC](https://github.com/fflamerie/zotero_bibpro_dist/blob/main/docs/zotero_bibpro_CITER_EXERCICE.doc)
 
 
 ***
