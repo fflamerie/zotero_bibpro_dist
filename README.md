@@ -43,7 +43,7 @@ Matériel de la formation ["Zotero pour les bibliothécaires"](https://sygefor.r
 
 ### Exercice "Extraire les références de la bibliographie d'un document Word ou PDF"
 
-[Fichier à utiliser avec Anystyle.io](https://github.com/fflamerie/zotero_bibpro_dist/blob/main/docs/zotero_bibpro_ex_anystyle.docx)
+[Fichier à utiliser avec Anystyle.io](https://github.com/fflamerie/zotero_bibpro_dist/raw/refs/heads/main/docs/zotero_bibpro_ex_anystyle.docx))
 
 ### Exercice "Citer avec Zotero"
 
