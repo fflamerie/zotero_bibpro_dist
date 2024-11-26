@@ -23,14 +23,14 @@ Les bonnes réponses sont préfixées d'un `#` .
 
 * `#` une application mobile pour Android et iOS.
 * `#` un service web accessible directement depuis n’importe quel navigateur internet.
-* `#` un logiciel avec des connecteurs pour les navigateurs internet et des modules pour les traitements de texte.
-* une extension à installer dans son navigateur internet et des modules pour les traitements de texte.
+* `#` un logiciel avec des connecteurs pour les navigateurs internet et des extensions pour les logiciels de traitement de texte.
+* une extension à installer dans son navigateur internet et des extensions pour les logiciels de traitement de texte.
 
 ### Zotero est un logiciel (une seule réponse possible):
 
 * Payant et propriétaire.
 * `#` Gratuit et libre.
-* Freemium (gratuit mais qui devient payant si on veut débloquer certaines fonctionnalités).
+* Freemium : gratuit mais qui devient payant si on veut débloquer certaines fonctionnalités.
 
 ### Quels sites, bases de données, catalogues, etc. utilisez-vous pour vos recherches documentaires (pour répondre à des lecteurs, mener une veille professionnelle, ou toute autre finalité)?
 
@@ -41,7 +41,7 @@ Les bonnes réponses sont préfixées d'un `#` .
 ### Sélectionnez uniquement les affirmations vraies parmi les suivantes.
 
 * `#` Dans un style bibliographique numérique, une référence conserve le même numéro de citation tout au long du texte.
-* Dans un style bibliographique auteur-date, les références sont classées dans la bibliographie  en fonction de leur ordre de citation (d'apparition) dans le texte.
+* Dans un style bibliographique auteur-date, les références sont classées dans la bibliographie en fonction de leur ordre de citation (d'apparition) dans le texte.
 * Dans un style bibliographique avec des notes de bas de page, les références sont rédigées différemment en note de bas de page et en bibliographie.
 * `#` Certains styles bibliographiques ne peuvent être utilisés que dans une langue déterminée.
 * `#` Un style bibliographique prescrit toute la mise en forme à appliquer (gras, italique, etc.), y compris la mise en forme des paragraphes de la bibliographie (retrait de première ligne, interligne, espacement entre les entrées de la bibliographie, etc.).
