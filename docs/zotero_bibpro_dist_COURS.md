@@ -747,7 +747,7 @@ Si vous utilisez d'autres logiciels que Word ou LibreOffice :
 
 De même qu'il prend en charge de nombreux formats d'import, Zotero propose de multiples format d'export. Outre les formats bibliographiques, il propose également un export CSV.
 
-![formts d'export avec CSV mis en évidence](img/zotero_export_formats.png)
+![formats d'export avec CSV mis en évidence](img/zotero_export_formats.png)
 
 ### Créer un format d'export CSV personnalisé
 
@@ -762,7 +762,7 @@ Nous prenons **10 minutes** pour créer un format d'export personnalisé CSV ré
 * le DOI,
 * le contenu du champ `Extra`.
 
-Vous trouverez comment procéder dans la documentation Zotero francophone, à la page indiquée ci-dessou.
+Vous trouverez comment procéder dans la documentation Zotero francophone, à la page indiquée ci-dessous.
 
 ![zotero][zotero] [Base de connaissance Zotero-FR : Créer un format d'export CSV personnalisé](https://docs.zotero-fr.org/kbfr/kbfr_export_csv_custom/)
 
