@@ -19,9 +19,9 @@
 - [7. Exporter depuis la bibliothèque Zotero](#7-exporter-depuis-la-bibliothèque-zotero)  
 - [8. De la bibliothèque Zotero à la bibliographie en ligne](#8-de-la-bibliothèque-zotero-à-la-bibliographie-en-ligne)   
 - [9. Où vont vos données Zotero?](#9-où-vont-vos-données-zotero)   
-- [10. Conclusion](#10-conclusion)   
+- [10. Conclusion](#10-conclusion)
 
-##  0. Tour de table
+## 0. Tour de table
 
 * Qui êtes-vous?
 * Quelles sont vos attentes pour ce stage?
@@ -85,7 +85,7 @@ Vous trouverez davantage de détails et des exemples concernant cette questions 
 
 🚧 **Si vous avez précédemment installé Zotero 6 et n'avez pas encore effectué la mise à jour vers Zotero 7, c'est le moment de le faire.**
 
-Pour ce faire, dans le menu de Zotero cliquez sur *Aide* > *Vérifier les mises à jour..."*, puis suivez les indications qui s'affichent successivement.
+Pour ce faire, dans le menu de Zotero cliquez sur _Aide_ > _Vérifier les mises à jour..."_, puis suivez les indications qui s'affichent successivement.
 
 ### Installer Zotero
 ![zotero][zotero] [Site web Zotero : Télécharger Zotero](https://www.zotero.org/download/)
@@ -107,8 +107,8 @@ Pour profiter pleinement de Zotero, le logiciel doit être connecté à votre na
 Si l'installation de l'extension pour traitement de texte n'a pas fonctionné, vous pouvez la réinstaller à partir de Zotero lui-même.
 
 1. Ouvrez Zotero.
-2. Allez à *Edition > Paramètres* (ou *Zotero > Paramètres* sur Mac OS).
-3. Cliquez sur l'onglet *Citer*.
+2. Allez à _Édition_> _Paramètres_ (ou _Zotero_ > _Paramètres_ sur Mac OS).
+3. Cliquez sur l'onglet _Citer_.
 4. Descendez à la rubrique _Traitements de texte_.
 5. À ce stade, vous pouvez choisir d'installer ou de réinstaller une ou plusieurs extensions pour traitement de texte, en fonction des logiciels de traitement de texte installés sur votre ordinateur.
 
@@ -243,7 +243,6 @@ ER  -
 Zotero accepte bien d'autres formats d'**import**, citons par exemple les formats texte complets de bases de données bibliographiques (PubMed, Web of Science, etc.)
 
 ![zotero_import_formats](img/zotero_import_formats.png)
-
 
 #### 4, avec un identifiant unique
 
@@ -446,8 +445,8 @@ Zotero peut **importer les annotations** effectuées dans un lecteur de PDF exte
 
 Pour **exporter** de Zotero des PDF avec leurs annotations intégrées, procédez comme suit.
 
- * Sélectionnez les documents parents des PDF dans votre bibliothèque Zotero.
- * Dans la barre de menu de Zotero, choisissez l'option *Fichier* > *Exporter le PDF...*
+* Sélectionnez les documents parents des PDF dans votre bibliothèque Zotero.
+* Dans la barre de menu de Zotero, choisissez l'option _Fichier_ > _Exporter le PDF..._
 
 ### Ressources
 
@@ -497,19 +496,19 @@ On considère 2 éléments.
 
 On distingue différents types de style bibliographiques, correspondant à des formats de style Zotero différents. On trouve ainsi dans [le dépôt des styles Zotero](https://www.zotero.org/styles), plus de 10'000 styles regroupés en 2 grands ensembles :
 
-*   les styles _**in-text**_, dans lesquels un appel de citation dans le texte renvoie à une entrée de la bibliographie,
-*   les styles _**note**_, dans lesquels un marqueur (symbole, nombre, etc.) pointe vers une note de bas de page ou de fin.
+* les styles _**in-text**_, dans lesquels un appel de citation dans le texte renvoie à une entrée de la bibliographie,
+* les styles _**note**_, dans lesquels un marqueur (symbole, nombre, etc.) pointe vers une note de bas de page ou de fin.
 
 #### Les styles _in-text_ numériques
 Les styles numériques sont les plus simples et les plus univoques. Dans le texte, chaque référence citée est appelée par un **numéro**. Une même référence conserve le même numéro tout au long du texte.
 
->Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">[21, 22]</span>.
+> Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">[21, 22]</span>.
 
 Dans la bibliographie, les références sont classées par **ordre d’apparition dans le texte**.
 
-><span style="color:#0000CD;">21\.</span> Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
+> <span style="color:#0000CD;">21\.</span> Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
 >
-><span style="color:#0000CD;">22\.</span> van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156: 15-23.
+> <span style="color:#0000CD;">22\.</span> van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156: 15-23.
 
 ##### Les styles _in-text_ numériques composites
 Dans les styles numériques composites, une entrée bibliographique peut contenir plusieurs références.
@@ -517,11 +516,11 @@ Ce type de style n'est **pas pris en charge par CSL**, le langage informatique d
 
 Dans le texte :
 
->Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">(1)</span>
+> Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">(1)</span>
 
 Dans la bibliographie :
 
-><span style="color:#0000CD;">1\. a)</span> Zwart KB, et al. (1983) Antonie van Leeuwenhoek 49: 369-385, <span style="color:#0000CD;">b)</span> van der Klei IJ, et al. (1991) Arch Microbiol 156: 15-23.
+> <span style="color:#0000CD;">1\. a)</span> Zwart KB, et al. (1983) Antonie van Leeuwenhoek 49: 369-385, <span style="color:#0000CD;">b)</span> van der Klei IJ, et al. (1991) Arch Microbiol 156: 15-23.
 
 #### Les styles _in-text_ auteur-date
 
@@ -531,24 +530,24 @@ Dans le texte, chaque référence citée est appelée par **le nom de l'auteur e
 
 > Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">(van der Klei et al. 1991; Zwart et al. 1983)</span>
 >
->Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">(van der Klei et al.; Zwart et al.)</span></cite>
+> Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">(van der Klei et al.; Zwart et al.)</span></cite>
 
 Dans la bibliographie, les références sont classées par **ordre alphabétique d'auteur**.
 
->van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156: 15-23.
+> van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156: 15-23.
 >
->Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
+> Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
 
 #### Les styles _in-text_ label
 Dans le texte, chaque référence citée est appelée par un **code**.
 
->Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">[ZwVH1983; vaHV1991]</span>.</cite>
+> Yeast cells were grown at 25°C in batch cultures on 0.5% methanol for 36 hours <span style="color:#0000CD;">[ZwVH1983; vaHV1991]</span>.</cite>
 
 Dans la bibliographie, les références sont classées par **ordre d’apparition dans le texte**.
 
-><span style="color:#0000CD;">[ZwVH1983]</span> Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
+> <span style="color:#0000CD;">[ZwVH1983]</span> Zwart KB, Veenhuis M, Harder W (1983) Significance of yeast peroxisomes in the metabolism of choline and ethanolamine. Antonie Van Leeuwenhoek 49: 369-385.
 >
-><span style="color:#0000CD;">[vaHV1991]</span> van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156: 15-23.
+> <span style="color:#0000CD;">[vaHV1991]</span> van der Klei IJ, Harder W, Veenhuis M (1991) Methanol metabolism in a peroxisome-deficient mutant of Hansenula polymorpha: a physiological study. Arch Microbiol 156: 15-23.
 
 Un seul style correspond à ce modèle dans le dépôt des styles, le style [DIN 1505-2 (alphanumeric, German)](https://www.zotero.org/styles/din-1505-2-alphanumeric).
 Il présente 2 limites :
@@ -566,9 +565,9 @@ Les styles avec notes, utilisés plutôt dans les domaines des lettres et arts e
 
 On trouve ainsi dans le texte un appel de note, et en bas de page ou en fin de document le contenu de la note.
 
->"In the Island of St. Kilda, according to Martin, <span style="color:#0000CD;">[*]</span> the men do not acquire beards until the age of thirty or upwards, and even then the beards are very thin. “
+> "In the Island of St. Kilda, according to Martin, <span style="color:#0000CD;">[*]</span> the men do not acquire beards until the age of thirty or upwards, and even then the beards are very thin. “
 >
-><span style="color:#0000CD;">[*]</span>'Voyage to St. Kilda' (3rd edit. 1753), p. 37.
+> <span style="color:#0000CD;">[*]</span>'Voyage to St. Kilda' (3rd edit. 1753), p. 37.
 
 Dans la bibliographie, les références sont en général classées par **ordre alphabétique d’auteur**. Notez que certains styles avec notes ne prévoient pas de liste récapitulative des références citées.
 
@@ -586,7 +585,6 @@ Les critères de choix suivants peuvent être pris en compte.
 Existe-t-il un style de référence ou fréquemment utilisé dans votre domaine? Par exemple "Vancouver" et "American Psychological Association" pour les sciences de la santé, "Modern Language Association" pour certains domaines de la littérature, "IEEE" pour les sciences de l'ingénieur, etc.
 
 Vous utilisez le style de l'ED droit de Bordeaux? Consultez la [Documentation du style CSL “Université de Bordeaux - École doctorale de droit (French)” pour Zotero](https://documentation-style-csl-ed-droit-ubx.readthedocs.io/en/latest/) : le site intègre toutes les spécificités de saisie et des exemples pour tous les types de document.
-
 
 #### Critère de choix 2, typologie documentaire prise en charge
 
@@ -612,7 +610,6 @@ Deux outils facilitent la comparaison des styles bibliographiques dans Zotero :
 On ne considère pas ici l'entrée bibliographique qui peut être affichée en en-tête du panneau de droite. Cette fonctionnalité n'affiche pas la **citation**, or il s'agit d'un élément important à prendre en compte dans la comparaison de styles.
 
 ![en-tête du panneau de droite de Zotero sous la forme d'une entrée de bibliographie](img/entete_entree_bib.png)
-
 
 ##### L'aperçu des styles
 
@@ -655,8 +652,8 @@ Tout d'abord, assurez-vous que les documents que vous utilisez comme exemples re
 
 Ensuite, et surtout, assurez-vous que ces documents sont complets et exacts dans votre bibliothèque Zotero.
 
-*  **S'il manque des informations bibliographiques**, il est logique que le style ne puisse pas les afficher quand il génère les citations et la bibliographie.
-*  **Si vous faites un usage inadéquat ou détourné de certains champs**, vous générerez également une bibliographie détournée ou inadéquate, ne correspondant pas au résultat que produit le style normalement.
+* **S'il manque des informations bibliographiques**, il est logique que le style ne puisse pas les afficher quand il génère les citations et la bibliographie.
+* **Si vous faites un usage inadéquat ou détourné de certains champs**, vous générerez également une bibliographie détournée ou inadéquate, ne correspondant pas au résultat que produit le style normalement.
 
 #### Comparatif de styles bibliographiques en SHS
 
@@ -717,7 +714,6 @@ L'objectif est de reproduire exactement le résultat présenté dans le fichier 
 
 Le style bibliographique utilisé est un style auteur-date, le style **ISO-690 (author-date, no abstract, Français)**.
 
-
 ### Reference Extractor pour visualiser dans sa bibliothèque Zotero les documents cités dans un fichier de traitement de texte.
 
 La fonctionnalité première du service en ligne [Reference Extractor](http://rintze.zelle.me/ref-extractor/) est, comme son nom l’indique, d’extraire des références bibliographiques d’un document rédigé, à partir d'un fichier de traitement de texte. Cette extraction peut être réalisée si les conditions suivantes sont réunies.
@@ -757,7 +753,7 @@ Nous prenons **10 minutes** pour créer un format d'export personnalisé CSV ré
 
 * les auteurs,
 * le titre,
-* l'anée de publication,
+* l’année de publication,
 * l'ISBN,
 * le DOI,
 * le contenu du champ `Extra`.
@@ -765,7 +761,6 @@ Nous prenons **10 minutes** pour créer un format d'export personnalisé CSV ré
 Vous trouverez comment procéder dans la documentation Zotero francophone, à la page indiquée ci-dessous.
 
 ![zotero][zotero] [Base de connaissance Zotero-FR : Créer un format d'export CSV personnalisé](https://docs.zotero-fr.org/kbfr/kbfr_export_csv_custom/)
-
 
 ## 8. De la bibliothèque Zotero à la bibliographie en ligne
 
@@ -803,7 +798,6 @@ Le groupe Zotero permet ensuite de définir très précisément qui a le droit d
 
 [Bibliotheque.CentraleLyon](https://www.zotero.org/groups/61846/bibliotheque.centralelyon) : groupe de travail et d'échanges des professionels de la Bibliothèque Michel Serres de l'Ecole Centrale de Lyon
 
-
 ### Ressources
 
 ![zotero][zotero] [Documentation Zotero : Les groupes Zotero](https://docs.zotero-fr.org/groups)
@@ -839,11 +833,7 @@ Billets du blog Zotero francophone
 * Lisez la **documentation**! Certaines pages sont disponibles uniquement en anglais, mais la documentation est exhaustive et détaillée. Nous vous recommandons comme point de départ [la page d'accueil de la version francophone de la documentation](https://docs.zotero-fr.org).
 * Vous rencontrez une difficulté? Vous n'êtes probablement pas le premier ni le seul, consultez le **forum** et créez si besoin une nouvelle discussion : [Forum Zotero](https://forums.zotero.org/)
 
-
 ![zotero][zotero] [Documentation Zotero : Obtenir de l'aide](https://docs.zotero-fr.org/getting_help)
-
-[zotero]: img/icone_zotero.png
-
 
 ### Aller plus loin
 
@@ -867,7 +857,6 @@ Pour lancer la recherche OpenURL dans les ressources de votre établissement, il
 
 ![zotero][zotero] [Documentation Zotero : Le menu Localiser](https://docs.zotero-fr.org/locate)
 
-
 #### Ajouter des moteurs de recherche intégrés à Zotero
 
 Le menu _Localiser_ donne également accès à des moteurs de recherche intégrés à Zotero.
@@ -889,3 +878,5 @@ Frédérique Flamerie
 **Visuels**
 
 Site [Zotero](https://www.zotero.org/)
+
+[zotero]: img/icone_zotero.png
