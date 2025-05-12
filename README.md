@@ -1,6 +1,6 @@
 # Zotero pour les bibliothécaires
 
-Matériel de la formation ["Zotero pour les bibliothécaires"](https://sygefor.reseau-urfist.fr/#/training/10804/13272?from=true) à l'Urfist de Bordeaux : formation à distance de 3h.
+Matériel de la formation "Zotero pour les bibliothécaires" - stage Urfist
 
 ## Objectifs
 
@@ -54,7 +54,7 @@ Le style bibliographique utilisé est le style **ISO-690 (author-date, no abstra
 
 
 ***
-## Programme de la formation publié sur le site de l'Urfist
+## Programme
 
 Zotero est un logiciel de gestion bibliographique robuste et fiable, gratuit et libre.
 
